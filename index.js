@@ -1,7 +1,7 @@
 const express = require('express');
 const app =  express();
 const path = require('path');
-const enforce = require('express-sslify');
+//const enforce = require('express-sslify');
  
 
 const PORT =process.env.PORT || 5000;
