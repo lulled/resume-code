@@ -6,7 +6,7 @@ const enforce = require('express-sslify');
 
 const PORT =process.env.PORT || 5000;
 
-app.use(enforce.HTTPS({trustProtoHeader:true}));
+//app.use(enforce.HTTPS({trustProtoHeader:true}));
 
 app.use(express.static(path.join(__dirname, 'public')));
 
